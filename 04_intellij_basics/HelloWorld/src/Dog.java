@@ -13,8 +13,8 @@ class Dog2 {
     public static void main(String[] args) {
         // make a Dog object and access it
         Dog2 dog1 = new Dog2();
-        dog1.bark();
         dog1.name = "Bart";
+        dog1.bark();
         // now make a Dog array
         Dog2[] myDogs = new Dog2[3];
         // and put some dogs in it
@@ -25,7 +25,7 @@ class Dog2 {
         myDogs[0].name = "Fred";
         myDogs[1].name = "Marge";
         // What is myDogs[2] name?
-        System.out.print("last dog’s name is ");
+        System.out.print("Last dog’s name is ");
         System.out.println(myDogs[2].name);
         // now loop through the array and tell all dogs to bark
         int x = 0;
